@@ -26,6 +26,7 @@ import {
     aktu,
     wheather,
     password,
+    spotifyClone
   } from "../assets";
   
   export const navLinks = [
@@ -146,6 +147,23 @@ import {
   
   const projects = [
     {
+      name: "Spotify-Clone",
+      description:
+        "Developed a spotify clone app using react and tailwind and also use react libraries",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: spotifyClone,
+      source_code_link: "https://github.com/shubham09082003/Spotify-clone",
+    },
+    {
       name: "Event Management Website",
       description:
         "Web-based platform that allows users to create event , show the latest event that are on going.",
@@ -215,28 +233,7 @@ import {
       ],
       image: wheather,
       source_code_link: "https://github.com/shubham09082003/Wheather-App",
-    },
-    {
-      name: "Password Generator",
-      description:
-        "Web application that generates the strong password according to the user constraints.",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: password,
-      source_code_link: "https://github.com/shubham09082003/Password-Generator",
-    },
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

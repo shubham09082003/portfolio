@@ -31,7 +31,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import aktu from "./Aktu.png";
 import wheather from "./weather.png";
-import password from "./password.png"
+import password from "./password.png";
+import spotifyClone from "./spotifyClone.png"
+
 
 
 
@@ -68,4 +70,5 @@ export {
   aktu,
   wheather,
   password,
+  spotifyClone
 };
