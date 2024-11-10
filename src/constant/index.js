@@ -20,8 +20,6 @@ import {
     tesla,
     shopify,
     event,
-    jobit,
-    tripguide,
     threejs,
     aktu,
     wheather,

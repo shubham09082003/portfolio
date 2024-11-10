@@ -27,8 +27,6 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import event from "./event.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import aktu from "./Aktu.png";
 import wheather from "./weather.png";
 import password from "./password.png";
@@ -66,8 +64,6 @@ export {
   starbucks,
   tesla,
   event,
-  jobit,
-  tripguide,
   aktu,
   wheather,
   password,
