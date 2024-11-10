@@ -26,7 +26,8 @@ import {
     aktu,
     wheather,
     password,
-    spotifyClone
+    spotifyClone,
+    blog
   } from "../assets";
   
   export const navLinks = [
@@ -69,8 +70,8 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "TypeScript",
+      icon: typescript,
     },
     {
       name: "JavaScript",
@@ -146,6 +147,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Blog-Website",
+      description:
+        "Built a responsive blogging platform inspired by Medium, designed for content creators and readers to share and explore articles",
+      tags: [
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ReactJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Serverless-Backends",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: blog,
+      source_code_link: "https://github.com/shubham09082003/blog",
+    },
     {
       name: "Spotify-Clone",
       description:
