@@ -25,7 +25,8 @@ import {
     wheather,
     password,
     spotifyClone,
-    blog
+    blog,
+    chess
   } from "../assets";
   
   export const navLinks = [
@@ -145,6 +146,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Chess Game",
+      description:
+        "Built a chess game using React and Websocket. It is a multiplayer game where legal move validation and interactive UI",
+      tags: [
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ReactJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "WebSockets",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: chess,
+      source_code_link: "https://github.com/shubham09082003/chess",
+    },
     {
       name: "Blog-Website",
       description:

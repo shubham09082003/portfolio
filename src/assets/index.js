@@ -31,7 +31,8 @@ import aktu from "./Aktu.png";
 import wheather from "./weather.png";
 import password from "./password.png";
 import spotifyClone from "./spotifyClone.png"
-import blog from "./tech/medium.png"
+import blog from "./tech/medium.png";
+import chess from "./chess.png";
 
 
 
@@ -68,5 +69,6 @@ export {
   wheather,
   password,
   spotifyClone,
-  blog
+  blog,
+  chess
 };
