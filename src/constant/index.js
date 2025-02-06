@@ -26,7 +26,8 @@ import {
     password,
     spotifyClone,
     blog,
-    chess
+    chess,
+    roomDesign
   } from "../assets";
   
   export const navLinks = [
@@ -146,6 +147,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Room Design",
+      description:
+        "Built an interactive room design tool to visualize and customize interior layouts.Developed using Nextjs, NodeJs, Drizzle-Orm, Clerk authentication, TailwindCss .Implemented dynamic rendering for real-time design updates. Optimized performance for smooth user experience",
+      tags: [
+        {
+          name: "NodeJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: roomDesign,
+      source_code_link: "https://room-design-dusky.vercel.app/",
+    },
     {
       name: "Chess Game",
       description:

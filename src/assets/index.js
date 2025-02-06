@@ -33,6 +33,7 @@ import password from "./password.png";
 import spotifyClone from "./spotifyClone.png"
 import blog from "./tech/medium.png";
 import chess from "./chess.png";
+import roomDesign from './roomRedesign.png';
 
 
 
@@ -70,5 +71,6 @@ export {
   password,
   spotifyClone,
   blog,
-  chess
+  chess,
+  roomDesign
 };
