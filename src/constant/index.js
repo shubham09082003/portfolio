@@ -27,7 +27,10 @@ import {
     spotifyClone,
     blog,
     chess,
-    roomDesign
+    roomDesign,
+    nextjs,
+    postgres,
+    aws
   } from "../assets";
   
   export const navLinks = [
@@ -51,16 +54,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "React and Next Developer",
+      icon: reactjs,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Gamer",
-      icon: creator,
+      title: "Full Stack Developer",
+      icon: web,
     },
   ];
   
@@ -94,13 +97,25 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "git",
       icon: git,
     },
+    {
+      name : "Docker",
+      icon : docker
+    },
+    {
+      name : "Posrgres", 
+      icon : postgres
+    },
+    {
+      name : "AWS",
+      icon : aws
+    }
   ];
   
   const experiences = [
